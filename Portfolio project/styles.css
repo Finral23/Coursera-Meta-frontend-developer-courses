@@ -56,4 +56,40 @@ main {
 }
 
 /* -----------------Menu---------------- */
-.me
+.menu>p {
+    font-size: 20px;
+    margin-left: 2vw;
+    margin-bottom: 50px;
+}
+
+
+/* ------------Responsive------------- */
+@media screen and (max-width: 750px) {
+    .food-item {
+        width: 43%;
+        height: 300px;
+        padding: 5px;
+        margin: 5px 5px;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+    .review-content {
+        width: 75vw;
+    }
+}
+
+
+
+/* ---------------navbar------------------ */
+.navbar {
+    clear: both;
+    margin: 0 3vw;
+    padding: 0.75vw 0.75vw;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
